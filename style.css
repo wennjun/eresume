@@ -1,0 +1,588 @@
+
+
+
+head{
+    background-image: black;
+    display:block;
+}
+
+
+
+.title{
+    margin:0px;
+    
+    background-color: grey;
+    font-size: 25px;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    height: 100%;
+    width: 15vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-top: 16px;
+    
+   
+      
+}
+.title:hover{
+    
+	width:300px;
+    
+	background-color: #88807B;
+    transition: width 1s;
+}
+
+
+
+h3{
+    margin: auto;
+  width: 65%;
+  font-size: 20px;
+
+  padding: 20px;
+  animation-duration: 3s;
+  
+  
+}
+
+h2{
+    margin: auto;
+  width: 60%;
+  font-family: arial;
+  font-size: 21px;
+  font-weight: normal;
+  padding: 20px;
+  animation-duration: 3s;
+  
+  
+}
+
+.portfolioheader{
+    width: auto;
+    height: auto;
+    position: static;
+    animation: htw 2s;
+    text-align: 10%;
+    margin: auto;
+    width: 60%;
+    font-family: arial;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 20px;
+    animation-duration: 3s;
+    
+
+
+}
+.portfolioparagraph{
+    width: auto;
+    height: auto;
+    position: static;
+    animation: fadeanimation 2s;
+    text-align: 10%;
+    margin: auto;
+    width: 60%;
+    font-family: arial;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 20px;
+    animation-duration: 3s;
+   
+    position: relative;
+    
+}
+
+
+
+
+
+h3{
+    margin: auto;
+  width: 65%;
+  font-size: 20px;
+
+  
+  padding: 20px;
+  animation-duration: 3s ;
+
+}
+
+h4{
+    margin: auto;
+    width: 60%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+
+   
+}
+
+
+
+
+.portfolio{
+
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    
+    text-decoration: none;
+    
+}
+
+.resume{
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+
+.cv{
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+
+
+.ResumeCVSoftcopy{
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    
+    text-decoration: none;
+}
+
+.contactme{
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+   
+    text-decoration: none;
+}
+
+.rcvsoftcopy{
+    border: 2px solid black;
+    background-color: grey;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+   
+    text-decoration: none;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.aboutme{
+    text-align:auto;
+    font-weight: bold;
+    position: relative;
+}
+
+.address{
+    border:2px solid black;
+    padding: 14px 28px;;
+    text-align:auto;
+    font-weight: bold;
+    position: relative;
+}
+
+.paraaddress{
+    
+    width: auto;
+    height: auto;
+    position: relative;
+    animation: fadeanimation 2s;
+    text-align: 10%;
+    
+    
+
+}
+
+body{
+    background-color: #ADD8E6;
+    background-size: cover;
+}
+.welcome{
+   width: auto;
+    height: auto;
+    position: relative;
+    animation: fadeanimation 2s;
+    text-align: 10%;
+}
+
+@keyframes fadeanimation {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
+.resumetitle{
+    width: auto;
+    height: auto;
+    position: relative;
+    animation: fadeanimation 2s;
+    text-align: 10%;
+}
+
+.rcvtitle{
+    width: auto;
+    height: auto;
+    position: relative;
+    animation: fadeanimation 2s;
+    text-align: 10%;
+}
+.resumeheader{
+    width: auto;
+    height: auto;
+    position: relative;
+    
+    text-align: 10%; 
+}
+
+.resumeimage{
+display: flex;
+justify-content: flex-end;
+
+    
+}
+img{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+text-align: center;
+margin:auto;
+width:300px;
+height:200px;
+
+
+}
+
+.photodowntext{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.photodowntextheader{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.cvphotodowntext{
+    text-align: lefts;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    width: 60%;
+    
+    
+}
+
+.cvphotodowntextheader{
+    text-align:left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    width: 60%;
+}
+
+
+
+
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
+
+
+.sectionheaders{
+font-family: Marker Felt;
+margin: auto;
+width: 60%;
+font-size: 30px;
+font-weight: normal;
+padding: 20px;
+animation-duration: 3s;
+text-decoration: underline;
+
+}
+
+.sectionheaders1{
+    font-family: Microsoft Sans Serif;
+margin: auto;
+width: 60%;
+font-size: 30px;
+font-weight: normal;
+font-weight: bold;
+padding: 20px;
+animation-duration: 3s;
+text-decoration: underline;
+
+
+}
+
+.position{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+width: 60%;
+font-size: 21px;
+font-weight: normal;
+
+animation-duration: 3s;
+font-family: Arial Rounded MT Bold;
+line-height: 0px;
+
+}
+.positionduration{
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto;
+width: 60%;
+font-size: 16px;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+animation-duration: 3s;
+line-height: 0px;
+}
+
+.companyname{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+width: 60%;
+font-size: 21px;
+font-weight: normal;
+padding: 20px;
+animation-duration: 3s;
+font-family: Arial Rounded MT Bold;
+font-style: italic;
+font-weight: bold;
+
+}
+
+.frame{
+  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    text-align: 10%; 
+  
+    
+}
+
+.educationhistoryheader{
+    font-family: Marker Felt;
+    margin: auto;
+    width: 60%;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+    animation-duration: 3s;
+    text-decoration: underline;
+}
+
+
+.coursename{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+width: 60%;
+font-size: 21px;
+font-weight: normal;
+
+animation-duration: 3s;
+font-family: Arial Rounded MT Bold;
+line-height: 0px;
+}
+.eduplace{
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: auto;
+    width: 60%;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 20px;
+    font-family: Arial Rounded MT Bold;
+    font-style: italic;
+    font-weight: bold;
+    
+    }
+
+    .eduduration{
+        font-size: 20px;
+        font-weight: normal;
+        margin: auto;
+    width: 60%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-duration: 3s;
+    line-height: 0px;
+
+    }
+
+    .cvparagraph{
+        width: auto;
+        height: auto;
+        position: static;
+        animation: fadeanimation 2s;
+        text-align: 10%;
+        margin: auto;
+        width: 60%;
+        font-family: arial;
+        font-size: 21px;
+        font-weight: normal;
+        padding: 20px;
+        animation-duration: 3s;
+       
+        position: relative
+        
+    }
+
+    .knowledgeacquiredpara{
+        width: auto;
+        height: auto;
+        position: static;
+        animation: fadeanimation 2s;
+        text-align: 10%;
+        margin: auto;
+        width: 60%;
+        font-family: arial;
+        font-size: 21px;
+        font-weight: normal;
+        padding: auto;
+        animation-duration: 3s;
+       
+        position: relative;
+    }
+    .knowledgeacquiredSF{
+        width: auto;
+        height: auto;
+        position: static;
+        animation: fadeanimation 2s;
+        text-align: 10%;
+        margin: auto;
+        width: 60%;
+        font-family: arial;
+        font-size: 25px;
+        font-weight: normal;
+        padding: auto;
+        animation-duration: 3s;
+       
+        position: relative;
+    }
+    .rcvsoftcopytext{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    width: 60%;
+    font-size: 35px;
+    font-weight: normal;
+    animation-duration: 3s;
+    font-family: Arial Rounded MT Bold;
+    line-height: 0px;
+    
+    }
+
+    
+
+
+
+    .paralocation{
+        text-align: center;
+    }
+
+    .paraemail{
+        text-align: center;
+        
+    }
+
+    .paraphonenumber{
+        text-align: center;
+    }
+
+    .contactmetitle{
+        width: auto;
+        height: auto;
+        position: relative;
+        animation: fadeanimation 2s;
+        text-align: 10%;
+    }
+
+    .contactinformation{
+        text-align: center;
+    }
+
+
+
+
+
+    .button1{
+        background-color: white; 
+        color: black; 
+        border: 2px solid black;
+        font-size: 25px;
+        
+    }
+
+    .button1:hover{
+            background-color: black;
+            color: white;
+          }
+    
+
+
+
+
+
+
+
+
+    
+
+
+
